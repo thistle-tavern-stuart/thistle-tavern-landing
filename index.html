@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thistle Tavern Games Hub – Pokemon & TCG in Aberdeen. Buy, sell and trade cards. Daily events at 395 Union Street.">
+  <meta http-equiv="refresh" content="15; url=https://thistletavern.com">
+  <title>Thistle Tavern Games Hub – Pokemon & TCG in Aberdeen</title>
+  <style>
+    :root {
+      --bg: #1a1f1a;
+      --surface: #252b25;
+      --text: #e8ebe8;
+      --muted: #9ca89c;
+      --accent: #4a7c4a;
+      --accent-hover: #5d965d;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      max-width: 42rem;
+      width: 100%;
+    }
+    h1 {
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 700;
+      margin: 0 0 0.5rem;
+      color: var(--text);
+    }
+    .tagline {
+      color: var(--muted);
+      font-size: 1rem;
+      margin: 0;
+    }
+    main {
+      max-width: 42rem;
+      width: 100%;
+      padding: 0 1rem 2rem;
+    }
+    section {
+      margin-bottom: 1.5rem;
+    }
+    section h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0 0 0.5rem;
+      color: var(--accent);
+    }
+    section p, section ul {
+      margin: 0;
+      color: var(--text);
+    }
+    section ul {
+      padding-left: 1.25rem;
+    }
+    .map-wrap {
+      width: 100%;
+      max-width: 42rem;
+      height: 350px;
+      margin: 1.5rem 0;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--surface);
+    }
+    .map-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+    .cta {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 0.875rem 1.75rem;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+    .cta a:hover {
+      background: var(--accent-hover);
+    }
+    .cta a:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+    .redirect-note {
+      margin-top: 0.75rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    footer {
+      margin-top: auto;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--muted);
+      border-top: 1px solid var(--surface);
+      width: 100%;
+      max-width: 42rem;
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    footer a:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Thistle Tavern Games Hub</h1>
+    <p class="tagline">Your spot for Pokemon cards, TCGs, and daily events in Aberdeen</p>
+  </header>
+  <main>
+    <section aria-labelledby="tcg-heading">
+      <h2 id="tcg-heading">Buy, sell & trade TCGs</h2>
+      <p>We buy, sell and trade Pokemon cards and other trading card games. Whether you're after singles, sealed product or a place to meet other players, Thistle Tavern Games Hub has you covered.</p>
+    </section>
+    <section aria-labelledby="events-heading">
+      <h2 id="events-heading">Daily events</h2>
+      <p>Regular events run daily at our venue. Find us at 395 Union Street – Thistle Tavern Games Hub – for tournaments, casual play and community meetups.</p>
+    </section>
+    <div class="map-wrap" aria-label="Map showing Thistle Tavern Games Hub at 395 Union Street, Aberdeen">
+      <iframe
+        src="https://www.google.com/maps?q=395+Union+Street,Aberdeen,Scotland&output=embed"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Map: 395 Union Street, Aberdeen, Scotland">
+      </iframe>
+    </div>
+    <div class="cta">
+      <a href="https://thistletavern.com">Visit thistletavern.com</a>
+      <p class="redirect-note">You'll be redirected automatically in 15 seconds.</p>
+    </div>
+  </main>
+  <footer>
+    <p>
+      <a href="https://www.google.com/maps/search/395+Union+Street,Aberdeen,Scotland" target="_blank" rel="noopener noreferrer">395 Union Street, Aberdeen</a>
+    </p>
+    <p>© 2025 Thistle Tavern. <a href="https://thistletavern.com">thistletavern.com</a></p>
+  </footer>
+</body>
+</html>
