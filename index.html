@@ -13,10 +13,11 @@
       --primary-hover: #094a82;
       --secondary: #f0c244;
       --secondary-hover: #f5ce5c;
-      --bg: #050a0f;
-      --surface: #0d1520;
-      --text: #e8ebe8;
-      --muted: #9ca89c;
+      --bg: #073763;
+      --surface: #094a82;
+      --text: #ffffff;
+      --text-yellow: #f0c244;
+      --muted: rgba(255, 255, 255, 0.85);
       --accent: var(--primary);
       --accent-hover: var(--primary-hover);
     }
@@ -47,7 +48,7 @@
       color: var(--text);
     }
     .tagline {
-      color: var(--secondary);
+      color: var(--text-yellow);
       font-size: 1rem;
       margin: 0;
     }
@@ -63,7 +64,7 @@
       font-size: 1.1rem;
       font-weight: 600;
       margin: 0 0 0.5rem;
-      color: var(--secondary);
+      color: var(--text-yellow);
     }
     section p, section ul {
       margin: 0;
@@ -94,8 +95,8 @@
     .cta a {
       display: inline-block;
       padding: 0.875rem 1.75rem;
-      background: var(--primary);
-      color: #fff;
+      background: var(--text-yellow);
+      color: var(--primary);
       text-decoration: none;
       font-weight: 600;
       font-size: 1.1rem;
@@ -103,10 +104,11 @@
       transition: background 0.2s;
     }
     .cta a:hover {
-      background: var(--primary-hover);
+      background: var(--secondary-hover);
+      color: var(--primary);
     }
     .cta a:focus {
-      outline: 2px solid var(--primary);
+      outline: 2px solid var(--text-yellow);
       outline-offset: 3px;
     }
     .redirect-note {
@@ -125,15 +127,15 @@
       max-width: 42rem;
     }
     footer a {
-      color: var(--primary);
+      color: var(--text-yellow);
       text-decoration: none;
     }
     footer a:hover {
-      color: var(--secondary-hover);
+      color: #fff;
       text-decoration: underline;
     }
     footer a:focus {
-      outline: 2px solid var(--primary);
+      outline: 2px solid var(--text-yellow);
       outline-offset: 2px;
     }
   </style>
